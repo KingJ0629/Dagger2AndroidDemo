@@ -1,6 +1,5 @@
 package com.kingj.dagger.test;
 
-import com.kingj.dagger.school.School;
 import com.kingj.dagger.student.Student;
 import com.kingj.dagger.teacher.Teacher;
 
@@ -17,9 +16,6 @@ public class Test {
 	
 	@Inject
 	Teacher teacher;
-	
-	@Inject
-	School school;
 	
 	public void test() {
 		
