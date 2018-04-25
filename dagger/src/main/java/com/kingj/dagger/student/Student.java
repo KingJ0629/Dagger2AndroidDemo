@@ -9,7 +9,9 @@ import javax.inject.Inject;
 public class Student {
 	
 	@Inject
-	public Student() {}
+	public Student() {
+	
+	}
 	
 	public String name() {
 		return "James";

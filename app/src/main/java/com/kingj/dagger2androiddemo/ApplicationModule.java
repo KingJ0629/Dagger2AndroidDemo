@@ -17,7 +17,10 @@ import dagger.Module;
  */
 @Module
 public abstract class ApplicationModule {
-    //expose Application as an injectable context
+    /**
+     * expose Application as an injectable context
+     * 提供全局的application context对象
+     */
     @Binds
     abstract Context bindContext(Application application);
 }

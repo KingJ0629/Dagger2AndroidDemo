@@ -17,7 +17,11 @@ public class Test {
 	@Inject
 	Teacher teacher;
 	
+	Teacher teacher2;
+	
 	public void test() {
+		
+		teacher2 = new Teacher(new Student());
 		
 		TestComponent testComponent = DaggerTestComponent.builder().build();
 		testComponent.inject(this);

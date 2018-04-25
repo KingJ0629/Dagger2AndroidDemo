@@ -7,11 +7,16 @@ import dagger.Provides;
 
 /**
  * Created by Jin on 2018/4/12.
- * Description
+ * Description 提供依赖
  */
 @Module
 public class MainActivityModule {
 	
+	/**
+	 * @ActivityScope 范围内单例
+	 * @Provides 提供依赖
+	 * @return Car
+	 */
 	@ActivityScope
 	@Provides
 	Car provideCar() {

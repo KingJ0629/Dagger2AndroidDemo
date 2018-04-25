@@ -2,7 +2,7 @@ package com.kingj.dagger2androiddemo.main;
 
 /**
  * Created by Jin on 2018/4/18.
- * Description
+ * Description 实体类
  */
 public class Car {
 	

@@ -16,6 +16,10 @@ import dagger.android.ContributesAndroidInjector;
 @Module
 public abstract class ActivityBindingModule {
 	
+	/**
+	 * MainActivity注射器
+	 * @ContributesAndroidInjector 构建MainActivitySubcomponent
+	 */
 	@ActivityScope
 	@ContributesAndroidInjector(modules = MainActivityModule.class)
 	abstract MainActivity mainActivityInjector();
